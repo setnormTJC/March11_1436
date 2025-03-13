@@ -43,9 +43,9 @@ void demoSomeWordPlay()
 
 	//std::cout << someName << " at index = 1 is: " << someName.at(1) << "\n"; //prints 'i' (NOT 'C')
 
-	std::string someWord = "dances";
+	std::string someVerb = "dances";
 
-	std::string someSentence = someName + " " + someWord; //+ is called the "concatenation operator" 
+	std::string someSentence = someName + " " + someVerb; //+ is called the "concatenation operator" 
 
 	//std::cout << someName + " " + someWord << "\n"; //one way to do it
 
@@ -56,10 +56,26 @@ void demoSomeWordPlay()
 int main()
 {
 
-	std::string firstWord = "elvis";
-	std::string secondWord = "lives";
+	//std::string firstWord = "elvis";
+	//std::string secondWord = "lives";
+
+	std::string studentName = "Doe Barnes";
+
+	std::string substringOfStudentName = "doe";
+	std::string someWord = "ode";
+
+
+	//demoing substring function: 
+	std::string OTHERsubstring = studentName.substr(2, 7);
+
+	std::cout << "\n\nThe OTHER substring of " << studentName << " from index = 0 to 2 (inclusive?): \n";
+	std::cout << OTHERsubstring << "\n\n\n";
+
+
+	
+
 
 	std::cout << std::boolalpha; //this shows TRUE instead of 1 and FALSE instead of 0 
-	std::cout << "Are they anagrams? " << areTheTwoWordsAnagrams(firstWord, secondWord) << "\n";
+	std::cout << "Are they anagrams? " << areTheTwoWordsAnagrams(substringOfStudentName, someWord) << "\n";
 
 }
