@@ -18,7 +18,7 @@ int main()
 	std::cout << "FRONT of " << someRandomWord << " is: " << someRandomWord.front() << "\n";
 
 	char letterToSearchFor = '*'; 
-	if (someRandomWord.find(letterToSearchFor) != std::string::npos)
+	if (someRandomWord.find(letterToSearchFor) != std::string::npos) //npos basically means -1
 	{
 		std::cout << "When searching for: " << letterToSearchFor << " , the find function returns: "
 			<< someRandomWord.find(letterToSearchFor) << "\n";

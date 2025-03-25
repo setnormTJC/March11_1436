@@ -59,14 +59,14 @@ int main()
 	//std::string firstWord = "elvis";
 	//std::string secondWord = "lives";
 
-	std::string studentName = "Doe Barnes";
+	std::string studentName = "doe Barnes";
 
 	std::string substringOfStudentName = "doe";
 	std::string someWord = "ode";
 
 
 	//demoing substring function: 
-	std::string OTHERsubstring = studentName.substr(2, 7);
+	std::string OTHERsubstring = studentName.substr(2, 7); //what is this? 
 
 	std::cout << "\n\nThe OTHER substring of " << studentName << " from index = 0 to 2 (inclusive?): \n";
 	std::cout << OTHERsubstring << "\n\n\n";
