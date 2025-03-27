@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "More string function play -
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Even MORE string function play - March 25", "Even MORE string function play - March 25\Even MORE string function play - March 25.vcxproj", "{AFA62A90-693A-4C8B-8224-DDDE1943EA2D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Some student submissions of word guessing game", "Some student submissions of word guessing game\Some student submissions of word guessing game.vcxproj", "{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DemoingSoundexAlgorithm", "DemoingSoundexAlgorithm\DemoingSoundexAlgorithm.vcxproj", "{3709FF2B-0294-4865-8E17-BADA5E9E7771}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{AFA62A90-693A-4C8B-8224-DDDE1943EA2D}.Release|x64.Build.0 = Release|x64
 		{AFA62A90-693A-4C8B-8224-DDDE1943EA2D}.Release|x86.ActiveCfg = Release|Win32
 		{AFA62A90-693A-4C8B-8224-DDDE1943EA2D}.Release|x86.Build.0 = Release|Win32
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Debug|x64.ActiveCfg = Debug|x64
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Debug|x64.Build.0 = Debug|x64
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Debug|x86.ActiveCfg = Debug|Win32
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Debug|x86.Build.0 = Debug|Win32
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Release|x64.ActiveCfg = Release|x64
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Release|x64.Build.0 = Release|x64
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Release|x86.ActiveCfg = Release|Win32
+		{9FE3AE57-4876-4D9F-8F4F-FE248E3E1EDD}.Release|x86.Build.0 = Release|Win32
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Debug|x64.ActiveCfg = Debug|x64
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Debug|x64.Build.0 = Debug|x64
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Debug|x86.ActiveCfg = Debug|Win32
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Debug|x86.Build.0 = Debug|Win32
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Release|x64.ActiveCfg = Release|x64
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Release|x64.Build.0 = Release|x64
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Release|x86.ActiveCfg = Release|Win32
+		{3709FF2B-0294-4865-8E17-BADA5E9E7771}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

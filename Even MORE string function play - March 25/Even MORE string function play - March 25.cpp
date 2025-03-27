@@ -1,6 +1,8 @@
 // Even MORE string function play - March 25.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+#include"myStringLibrary.h"
+
 #include<algorithm>
 #include <iostream>
 #include<string> 
@@ -29,11 +31,13 @@ void demoClearEmptyReverse()
 	std::cout << "After REVERSING, string is: " << someWord << "\n";
 }
 
+/*This is one "overload" of the `printStuff` function*/
 void printStuff(int a)
 {
 	std::cout << a << "\n";
 }
 
+/*This is another "overload" of the `printStuff` function*/
 void printStuff(int a, int b)
 {
 	std::cout << a << "\t" << b << "\n";
@@ -61,14 +65,21 @@ void demoOverloadingAndTheFindFunction()
 }
 int main()
 {
-	std::string otherWord = "beta";
+	std::string otherWord = "alpha";
 
 	//otherWord.erase(1, 2);
-	otherWord.erase('e');  //goes out of bounds! ('e' gets interpreted as 101 -> the decimal value of 'e')
+	//otherWord.erase('e');  //goes out of bounds! ('e' gets interpreted as 101 -> the decimal value of 'e')
 
 	//...and there is no 101th position in "beta"
 
 	std::cout << "What did it do? " << otherWord << "\n";
+
+	MySpace::myReplace(otherWord, 'a', 'b');
+
+	std::cout << "Is the modified string blphb?\n" << otherWord << "\n";
+
+	//otherWord.replace('a', 'b')
+
 
 
 }

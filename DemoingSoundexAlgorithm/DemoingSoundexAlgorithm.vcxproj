@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{afa62a90-693a-4c8b-8224-ddde1943ea2d}</ProjectGuid>
-    <RootNamespace>EvenMOREstringfunctionplayMarch25</RootNamespace>
+    <ProjectGuid>{3709ff2b-0294-4865-8e17-bada5e9e7771}</ProjectGuid>
+    <RootNamespace>DemoingSoundexAlgorithm</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Even MORE string function play - March 25.cpp" />
-    <ClCompile Include="myStringLibrary.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myStringLibrary.h" />
+    <ClCompile Include="DemoingSoundexAlgorithm.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

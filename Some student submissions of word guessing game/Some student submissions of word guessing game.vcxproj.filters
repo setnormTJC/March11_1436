@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Even MORE string function play - March 25.cpp">
+    <ClCompile Include="Some student submissions of word guessing game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="myStringLibrary.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myStringLibrary.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
